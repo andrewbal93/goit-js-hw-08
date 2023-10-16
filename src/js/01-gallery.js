@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     galleryItems.forEach((item) => {
         const galleryElement = createGalleryItem(item);
         galleryList.appendChild(galleryElement);
-        console.log(item.description);
+        // console.log(item.description);
     })
 
     let lightbox = new SimpleLightbox('.gallery a', {captionDelay: 250});
@@ -41,5 +41,5 @@ document.addEventListener('DOMContentLoaded', function () {
     lightbox.on('show.simplelightbox',() => {        
     })
 })
-console.log(galleryItems);
+// console.log(galleryItems);
 
